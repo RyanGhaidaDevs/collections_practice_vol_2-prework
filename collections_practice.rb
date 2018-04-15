@@ -101,7 +101,7 @@ end
   puts keys
   puts data[0]
 
-   data[0].each do |key, value|
+   data.each do |key, value|
 
      puts key
 
