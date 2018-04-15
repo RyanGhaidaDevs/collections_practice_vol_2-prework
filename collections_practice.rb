@@ -146,5 +146,5 @@ def organize_schools(schools)
 
    end
   end
- puts "hash"
+ hash
 end
