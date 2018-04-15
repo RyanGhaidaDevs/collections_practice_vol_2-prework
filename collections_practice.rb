@@ -99,7 +99,7 @@ end
   arr = []
 
   puts keys
-  puts data[0]
+  puts data
 
    data.each do |key, value|
 
