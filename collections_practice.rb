@@ -100,7 +100,7 @@ end
 
   puts data
 
-   data.each do |key, value|
+   data[0].each do |key, value|
 
      puts "key: #{key}"
 
