@@ -97,7 +97,7 @@ def merge_data(keys, data)
 
   def merge_data(keys, data)
   merge_array = []
-  
+
    data[0].each do |key, value|
      puts "key: #{key}"
      puts "value: #{value}"
