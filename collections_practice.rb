@@ -109,6 +109,8 @@ end
      value[:first_name] = key
 
       arr << value
+      
     end
+    
    arr
   end
