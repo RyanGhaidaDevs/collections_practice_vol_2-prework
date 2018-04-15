@@ -143,8 +143,8 @@ def organize_schools(schools)
     else
 
      hash[current_school] << name
-     
+
    end
   end
- hash
+ puts "hash"
 end
