@@ -129,21 +129,14 @@ end
 
 
 def organize_schools(schools)
-
-  schools_by_location = {}
-  
-  schools.each do |key, value|
-    
-    if(schools_by_location[value[:location]] == nil)
-      
-      schools_by_location[value[:location]] = [key]
-      
+ hash = {}
+ schools.each do |name, location_hash|
+   current_school = location_hash[:location]
+    if hash[current_school].nil?
+     hash[current_school] = [name]
     else
-      
-      schools_by_location[value[:location]] << key
-      
-    end
-    
+     hash[current_school] << name
+   end
   end
- schools_by_location
+ hash
 end
