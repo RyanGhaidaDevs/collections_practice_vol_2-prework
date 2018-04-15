@@ -133,7 +133,9 @@ def organize_schools(schools)
  hash = {}
 puts schools
  schools.each do |name, location_hash|
+puts name 
 puts location_hash
+
    current_school = location_hash[:location]
 
     if hash[current_school] == nil
