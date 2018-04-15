@@ -93,7 +93,7 @@ array.group_by(&:itself).map{|k, v| k.merge(count: v.length)}
 
 end
 
-def merge_data(keys, data)
+
 
   def merge_data(keys, data)
   merge_array = []
@@ -106,4 +106,3 @@ def merge_data(keys, data)
     end
    merge_array
   end
-end
