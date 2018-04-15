@@ -95,6 +95,15 @@ end
 
 def merge_data(keys, data)
 
-puts keys
-puts data
+  def merge_data(keys, data)
+  merge_array = []
+  
+   data[0].each do |key, value|
+     puts "key: #{key}"
+     puts "value: #{value}"
+     value[:first_name] = key
+      merge_array << value
+    end
+   merge_array
+  end
 end
