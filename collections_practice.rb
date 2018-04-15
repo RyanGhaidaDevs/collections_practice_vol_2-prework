@@ -98,6 +98,7 @@ end
   def merge_data(keys, data)
   arr = []
 
+  puts keys
   puts data
 
    data[0].each do |key, value|
@@ -109,8 +110,8 @@ end
      value[:first_name] = key
 
       arr << value
-      
+
     end
-    
+
    arr
   end
