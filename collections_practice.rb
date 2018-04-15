@@ -136,7 +136,7 @@ def organize_schools(schools)
 
    current_school = location_hash[:location]
 
-    if hash[current_school].nil?
+    if hash[current_school] == nil 
 
     puts  hash[current_school] = [name]
 
