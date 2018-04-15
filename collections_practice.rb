@@ -138,11 +138,11 @@ def organize_schools(schools)
 
     if hash[current_school].nil?
 
-     hash[current_school] = [name]
+    puts  hash[current_school] = [name]
 
     else
 
-     hash[current_school] << name
+    puts hash[current_school] << name
 
    end
   end
