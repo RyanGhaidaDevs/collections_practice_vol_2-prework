@@ -138,11 +138,11 @@ puts location_hash
 
     if hash[current_school] == nil
 
-    puts  hash[current_school] = [name]
+      hash[current_school] = [name]
 
     else
 
-    puts hash[current_school] << name
+     hash[current_school] << name
 
    end
   end
