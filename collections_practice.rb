@@ -118,6 +118,7 @@ end
 
 def find_cool(hashes)
   hashes.select do |hash|
+    
     hash[:temperature] == "cool"
   end
 end
