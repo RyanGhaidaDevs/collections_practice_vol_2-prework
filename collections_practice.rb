@@ -102,9 +102,9 @@ end
 
    data[0].each do |key, value|
 
-     puts "key: #{key}"
+     puts key
 
-     puts "value: #{value}"
+     puts value
 
      value[:first_name] = key
 
